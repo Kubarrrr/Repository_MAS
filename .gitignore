@@ -12,7 +12,48 @@
 
 # Package Files #
 *.jar
+*.war### JetBrains (IntelliJ IDEA) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/resources/archetype-resources/google-services.json
+
+### Java / Build Tools ###
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Nie ignoruj wrapperów Mavena (opcjonalne, ale zalecane)
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Logi i pliki tymczasowe ###
+*.log
+logs/
+temp/
+tmp/
+
+### System / OS ###
+.DS_Store
+Thumbs.db
+
+### Spring Boot ###
+*.jar
 *.war
+*.ear
+/help.md
 *.nar
 *.ear
 *.zip
